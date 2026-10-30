@@ -15,7 +15,7 @@ Paramedic speaks -> AI generates a report -> paramedics review the report -> hos
 
 - Speech-to-text AI captures paramedic comments.
 - DeepFilterNet enhances audio in noisy environments.
-- An Ollama-powered language model analyzes the transcript and suggests a diagnosis.
+- An Ollama-powered language model analyzes the transcript and returns JSON with the report fields mapped to the correct info from the transcript.
 - HL7-based data exchange supports interoperability with hospital systems.
 
 **Frontend**
